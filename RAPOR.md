@@ -1,7 +1,7 @@
 # Rapor
 
-**Ad Soyad:**
-**Numara:**
+**Ad Soyad: Ege Karaduman**
+**Numara: 793**
 
 Her soru için en az 2 test yazın.
 
