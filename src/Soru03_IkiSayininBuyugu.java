@@ -1,19 +1,26 @@
+package org.example;
+
 import java.util.Scanner;
 
-/** Soru 3: İki Sayının Büyüğü */
-public class Soru03_IkiSayininBuyugu {
-
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        System.out.println("Bana 1. sayiyi soyle");
+        Scanner input = new Scanner(System.in);
+        int sayi = input.nextInt();
+        System.out.println("Bana 2. sayiyi soyle");
+        int sayi1 = input.nextInt();
+        if (sayi > sayi1){
+            System.out.println("1. sayi daha buyuktur");
+        } else { if (sayi < sayi1) {
+            System.out.println("2. sayi daha buyuktur");
+        }else {
+            System.out.println("Sayilar esittir");
+        }
+        }
 
-        // TODO: Girdileri alın
 
-        // TODO: Girdileri kontrol edin (geçersiz giriş / sınır durumları)
 
-        // TODO: Karar yapısını yazın
-
-        // TODO: Sonucu ekrana yazdırın
-
-        scanner.close();
     }
 }
